@@ -4,12 +4,17 @@ namespace App\Services;
 
 use App\Models\PaymentGatewaySetting;
 use Cache;
+use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\Schema;
 
 class PaymentGatewaySettingService {
 
     function getSettings() {
-        if (! Schema::hasTable('payment_gateway_settings')) {
+        try {
+            if (! Schema::hasTable('payment_gateway_settings')) {
+                return [];
+            }
+        } catch (QueryException) {
             return [];
         }
 

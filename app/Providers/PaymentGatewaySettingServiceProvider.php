@@ -22,6 +22,10 @@ class PaymentGatewaySettingServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        if ($this->app->runningInConsole() && in_array($_SERVER['argv'][1] ?? null, ['package:discover'])) {
+            return;
+        }
+
         $paymentGatewaySetting = $this->app->make(PaymentGatewaySettingService::class);
         $paymentGatewaySetting->setGlobalSettings();
     }

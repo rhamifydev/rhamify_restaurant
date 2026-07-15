@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Models\Setting;
+use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Schema;
@@ -23,24 +24,32 @@ class CustomMailServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        if (! Schema::hasTable('settings')) {
+        if ($this->app->runningInConsole() && in_array($_SERVER['argv'][1] ?? null, ['package:discover'])) {
             return;
         }
 
-        $mailSetting = Cache::rememberForever('mail_settings', function(){
-            $key = [
-                'mail_driver',
-                'mail_encryption',
-                'mail_from_address',
-                'mail_host',
-                'mail_password',
-                'mail_port',
-                'mail_receive_address',
-                'mail_username'
-            ];
-            
-            return Setting::whereIn('key', $key)->pluck('value', 'key')->toArray();
-        });
+        try {
+            if (! Schema::hasTable('settings')) {
+                return;
+            }
+
+            $mailSetting = Cache::rememberForever('mail_settings', function(){
+                $key = [
+                    'mail_driver',
+                    'mail_encryption',
+                    'mail_from_address',
+                    'mail_host',
+                    'mail_password',
+                    'mail_port',
+                    'mail_receive_address',
+                    'mail_username'
+                ];
+                
+                return Setting::whereIn('key', $key)->pluck('value', 'key')->toArray();
+            });
+        } catch (QueryException) {
+            return;
+        }
 
         if($mailSetting) {
             Config::set('mail.mailers.smtp.host', $mailSetting['mail_host'] ?? config('mail.mailers.smtp.host'));

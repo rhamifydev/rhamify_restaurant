@@ -4,12 +4,17 @@ namespace App\Services;
 
 use App\Models\Setting;
 use Cache;
+use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\Schema;
 
 class SettingsService {
 
     function getSettings() {
-        if (! Schema::hasTable('settings')) {
+        try {
+            if (! Schema::hasTable('settings')) {
+                return [];
+            }
+        } catch (QueryException) {
             return [];
         }
 
