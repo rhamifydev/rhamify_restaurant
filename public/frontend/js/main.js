@@ -397,48 +397,63 @@ $(function () {
 
 
     //=======OFFER ITEM SLIDER======
-    $('.related_product_slider').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: false,
-        arrows: true,
-        nextArrow: '<i class="far fa-long-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
+    $('.related_product_slider').each(function () {
+        var slideCount = $(this).children().length;
 
-        responsive: [
-            {
-                breakpoint: 1400,
-                settings: {
-                    slidesToShow: 4,
+        $(this).slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            infinite: slideCount > 4,
+            autoplay: slideCount > 4,
+            autoplaySpeed: 4000,
+            dots: false,
+            arrows: slideCount > 1,
+            nextArrow: '<i class="far fa-long-arrow-right nextArrow"></i>',
+            prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
+
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 4,
+                        infinite: slideCount > 4,
+                        autoplay: slideCount > 4,
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                        infinite: slideCount > 3,
+                        autoplay: slideCount > 3,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        infinite: slideCount > 2,
+                        autoplay: slideCount > 2,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        infinite: slideCount > 2,
+                        autoplay: slideCount > 2,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        infinite: slideCount > 1,
+                        autoplay: slideCount > 1,
+                    }
                 }
-            },
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
+            ]
+        });
     });
 
 
@@ -551,7 +566,7 @@ $(function () {
     //=======PRODUCT DETAILS SLIDER======
     if ($("#exzoom").length > 0) {
         $("#exzoom").exzoom({
-            autoPlay: true,
+            autoPlay: false,
         });
     }
 

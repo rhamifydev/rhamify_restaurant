@@ -32,12 +32,16 @@
                     <div class="exzoom hidden" id="exzoom">
                         <div class="exzoom_img_box fp__menu_details_images">
                             <ul class='exzoom_img_ul'>
-                                <li><img class="zoom ing-fluid w-100" src="{{ asset($product->thumb_image) }}"
-                                        alt="product"></li>
+                                @if (!empty($product->thumb_image))
+                                    <li><img class="zoom img-fluid w-100" src="{{ asset($product->thumb_image) }}"
+                                            alt="{{ $product->name }}"></li>
+                                @endif
 
                                 @foreach ($product->productImages as $image)
-                                    <li><img class="zoom ing-fluid w-100" src="{{ asset($image->image) }}" alt="product">
-                                    </li>
+                                    @if (!empty($image->image))
+                                        <li><img class="zoom img-fluid w-100" src="{{ asset($image->image) }}" alt="{{ $product->name }}">
+                                        </li>
+                                    @endif
                                 @endforeach
 
                             </ul>
@@ -283,7 +287,7 @@
                                         <ul class="d-flex flex-wrap justify-content-center">
                                             <li><a href="javascript:;" onclick="loadProductModal('{{ $relatedProduct->id }}')"><i class="fas fa-shopping-basket"></i></a></li>
                                             <li><a href="#"><i class="fal fa-heart"></i></a></li>
-                                            <li><a href="#"><i class="far fa-eye"></i></a></li>
+                                            <li><a href="{{ route('product.show', $relatedProduct->slug) }}"><i class="far fa-eye"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>

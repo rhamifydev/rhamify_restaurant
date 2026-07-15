@@ -490,3 +490,18 @@
         height: 320px;
     }
 }
+/* Product details gallery fixes */
+.fp__menu_details_images .exzoom_img_ul li:empty {
+    display: none !important;
+}
+
+.fp__menu_details_images img {
+    display: block;
+    object-fit: cover;
+}
+
+.exzoom .exzoom_preview {
+    background: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
