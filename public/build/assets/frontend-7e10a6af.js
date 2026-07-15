@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{!window.Echo||!window.loggedInUserId||document.querySelector("#v-pills-message")||window.Echo.private(`chat.${window.loggedInUserId}`).listen("ChatEvent",()=>{let e=Number($(".sunseen-message-count").first().text())||0;$(".sunseen-message-count").text(e+1)})});

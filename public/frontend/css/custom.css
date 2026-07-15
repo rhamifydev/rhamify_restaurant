@@ -1,0 +1,492 @@
+ /* Add these styles to your existing CSS */
+ .overlay-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.overlay.active {
+    display: flex;
+    opacity: 1;
+}
+
+.loader {
+    width: 16px;
+    height: 16px;
+    box-shadow: 0 30px, 0 -30px;
+    border-radius: 4px;
+    background: currentColor;
+    display: block;
+    margin: -50px auto 0;
+    position: relative;
+    color: #FFF;
+    transform: translateY(30px);
+    box-sizing: border-box;
+    animation: animloader 2s ease infinite;
+}
+
+.loader::after,
+.loader::before {
+    content: '';
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    box-shadow: 0 30px, 0 -30px;
+    border-radius: 4px;
+    background: currentColor;
+    color: #FFF;
+    position: absolute;
+    left: 30px;
+    top: 0;
+    animation: animloader 2s 0.2s ease infinite;
+}
+
+.loader::before {
+    animation-delay: 0.4s;
+    left: 60px;
+}
+
+@keyframes animloader {
+    0% {
+        top: 0;
+        color: white;
+    }
+
+    50% {
+        top: 30px;
+        color: rgba(255, 255, 255, 0.2);
+    }
+
+    100% {
+        top: 0;
+        color: white;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .fp__dashboard {
+        margin-top: 50px !important;
+        margin-bottom: 55px !important;
+    }
+
+    .fp__dashboard .container {
+        max-width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .fp__dashboard_area {
+        border: 0;
+        border-radius: 0;
+        overflow: visible;
+    }
+
+    .fp__dashboard_area > .row {
+        --bs-gutter-y: 14px;
+    }
+
+    .fp__dashboard_menu {
+        height: auto;
+        overflow: visible;
+        padding: 14px;
+        border: 1px solid #f0e4dc;
+        border-radius: 8px;
+        background: #fffaf7;
+        box-shadow: 0 12px 28px rgba(12, 18, 32, 0.06);
+    }
+
+    .dasboard_header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 14px;
+        padding: 0;
+        text-align: left;
+    }
+
+    .dasboard_header .dasboard_header_img {
+        width: 64px;
+        height: 64px;
+        flex: 0 0 64px;
+        margin: 0;
+        border-width: 3px;
+    }
+
+    .dasboard_header .dasboard_header_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .dasboard_header .dasboard_header_img label {
+        right: -4px;
+        bottom: -4px;
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+    }
+
+    .dasboard_header h2 {
+        margin: 0;
+        text-align: left;
+        font-size: 17px;
+        line-height: 1.25;
+        overflow-wrap: anywhere;
+    }
+
+    .fp__dashboard_menu .nav {
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+        gap: 8px;
+        margin: 0 -14px;
+        padding: 2px 14px 4px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .fp__dashboard_menu .nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .fp__dashboard_menu .nav form {
+        flex: 0 0 auto;
+        margin: 0;
+    }
+
+    .fp__dashboard_menu button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex: 0 0 auto;
+        min-width: max-content;
+        min-height: 42px;
+        padding: 7px 13px !important;
+        border: 1px solid #eadcd3 !important;
+        border-radius: 999px !important;
+        background: #fff !important;
+        color: #20202a !important;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 1;
+        white-space: nowrap;
+        box-shadow: 0 6px 16px rgba(12, 18, 32, 0.04);
+    }
+
+    .fp__dashboard_menu button span {
+        width: auto;
+        height: auto;
+        margin: 0;
+        line-height: 1;
+        background: transparent;
+        color: var(--colorPrimary) !important;
+        font-size: 14px;
+    }
+
+    .fp__dashboard_menu button.active,
+    .fp__dashboard_menu button:hover {
+        border-color: var(--colorPrimary) !important;
+        background: var(--colorPrimary) !important;
+        color: var(--colorBlack) !important;
+    }
+
+    .fp__dashboard_menu button.active span,
+    .fp__dashboard_menu button:hover span {
+        color: var(--colorBlack) !important;
+    }
+
+    .fp__dashboard_menu button.active::after {
+        display: none;
+    }
+
+    .fp__dashboard_menu button b {
+        position: static;
+        display: inline-block;
+        min-width: 18px;
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        margin-left: 2px;
+        background: #20202a;
+        color: var(--colorWhite);
+    }
+
+    .fp__dashboard_content {
+        padding: 0 !important;
+    }
+
+    .fp_dashboard_body {
+        padding: 14px;
+        border: 1px solid #f0e4dc;
+        border-radius: 8px;
+        background: var(--colorWhite);
+        box-shadow: 0 12px 28px rgba(12, 18, 32, 0.05);
+    }
+
+    .fp_dashboard_body h3 {
+        margin-top: 0;
+        margin-bottom: 14px;
+        font-size: 19px;
+        line-height: 1.25;
+        gap: 10px;
+    }
+
+    .fp_dashboard_body h3 .dash_add_new_address {
+        padding: 7px 12px;
+        font-size: 12px;
+    }
+
+    .fp__dsahboard_overview .row {
+        --bs-gutter-x: 10px;
+        --bs-gutter-y: 10px;
+    }
+
+    .fp__dsahboard_overview_item {
+        min-height: 112px;
+        margin-bottom: 0;
+        padding: 18px 10px;
+        border-radius: 8px;
+    }
+
+    .fp__dsahboard_overview_item .icon {
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        font-size: 17px;
+    }
+
+    .fp__dsahboard_overview_item h4 {
+        margin-top: 12px;
+        font-size: 13px;
+        line-height: 1.35;
+    }
+
+    .fp_dash_personal_info,
+    .fp_dashboard_new_address,
+    .fp_dashboard_edit_address {
+        padding: 16px;
+        border-radius: 8px;
+        background: #fffaf7;
+    }
+
+    .fp_dash_personal_info h4 {
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    .fp_dash_personal_info h4 a {
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+
+    .fp_dash_personal_info p {
+        display: block;
+        margin-top: 12px;
+        line-height: 1.5;
+    }
+
+    .fp_dash_personal_info p span {
+        display: block;
+        min-width: 0;
+        margin-bottom: 2px;
+        font-size: 13px;
+        color: #686868;
+    }
+
+    .fp_dashboard_existing_address {
+        margin-bottom: 0;
+    }
+
+    .fp_dashboard_existing_address .form-check label,
+    .fp_dashboard_new_address .form-check label,
+    .fp_dashboard_edit_address .form-check label {
+        font-size: 14px;
+        line-height: 1.45;
+    }
+
+    .fp_dashboard_new_address .form-check,
+    .fp_dashboard_edit_address .form-check {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+
+    .fp_dashboard_order {
+        overflow: hidden;
+        border: 1px solid #f0e4dc;
+        border-radius: 8px;
+        background: #fffaf7;
+    }
+
+    .fp_dashboard_order .table-responsive {
+        margin: 0;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .fp_dashboard_order table {
+        min-width: 660px;
+        border-radius: 0;
+        background: transparent;
+    }
+
+    .fp_dashboard_order table tr th,
+    .fp_dashboard_order table tr td {
+        width: 132px;
+        min-width: 132px;
+        padding: 11px 8px;
+        font-size: 13px;
+    }
+
+    .fp_dashboard_order table tr th {
+        font-size: 14px;
+    }
+
+    .fp_dashboard_order table tr td h5 {
+        font-size: 14px;
+        line-height: 1.35;
+    }
+
+    .fp_dashboard_order table tr td p {
+        line-height: 1.4;
+    }
+
+    .fp_dashboard_order table tr td a {
+        padding: 6px 9px;
+        font-size: 12px;
+    }
+
+    .fp_dashboard_order table tr td span {
+        width: 104px;
+        padding: 6px 0;
+        font-size: 12px;
+    }
+
+    .fp__chat_area {
+        border-radius: 8px;
+    }
+
+    .fp__chat_body {
+        height: 360px;
+    }
+
+    .fp__single_chat_bottom {
+        gap: 8px;
+        padding: 10px;
+    }
+
+    .fp__single_chat_bottom input.fp_send_message {
+        min-width: 0;
+        font-size: 14px;
+    }
+
+    .fp__single_chat_bottom .fp__massage_btn {
+        flex: 0 0 42px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .fp__dashboard .modal-dialog {
+        width: calc(100% - 24px);
+        max-width: 420px;
+    }
+
+    .fp__dashboard .modal-content {
+        width: 100%;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .fp__breadcrumb_text h1 {
+        font-size: 30px;
+    }
+
+    .fp__dashboard {
+        margin-top: 34px !important;
+    }
+
+    .fp__dashboard .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .fp__dashboard_menu {
+        padding: 12px;
+    }
+
+    .fp__dashboard_menu .nav {
+        margin-left: -12px;
+        margin-right: -12px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .fp_dashboard_body {
+        padding: 12px;
+    }
+
+    .fp_dashboard_body h3 {
+        font-size: 18px;
+    }
+
+    .fp__dsahboard_overview .row > * {
+        width: 33.333333%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .fp__dsahboard_overview_item {
+        min-height: 104px;
+        padding: 14px 6px;
+    }
+
+    .fp__dsahboard_overview_item .icon {
+        width: 38px;
+        height: 38px;
+        line-height: 38px;
+        font-size: 15px;
+    }
+
+    .fp__dsahboard_overview_item h4,
+    .fp__dsahboard_overview_item h4 span {
+        font-size: 12px;
+    }
+
+    .fp_dash_personal_info,
+    .fp_dashboard_new_address,
+    .fp_dashboard_edit_address {
+        padding: 14px;
+    }
+
+    .fp_dashboard_order table {
+        min-width: 600px;
+    }
+
+    .fp_dashboard_order table tr th,
+    .fp_dashboard_order table tr td {
+        width: 120px;
+        min-width: 120px;
+    }
+
+    .fp__chat_body {
+        height: 320px;
+    }
+}

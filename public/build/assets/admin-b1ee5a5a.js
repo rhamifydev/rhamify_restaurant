@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{!window.Echo||!window.loggedInUserId||document.querySelector("#mychatbox")||window.Echo.private(`chat.${window.loggedInUserId}`).listen("ChatEvent",()=>{$(".message-envelope").addClass("beep")})});
