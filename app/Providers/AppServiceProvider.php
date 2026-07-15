@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Models\Setting;
+use Illuminate\Database\QueryException;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
@@ -25,12 +26,16 @@ class AppServiceProvider extends ServiceProvider
     {
         Paginator::useBootstrap();
 
-        if (! Schema::hasTable('settings')) {
+        try {
+            if (! Schema::hasTable('settings')) {
+                return;
+            }
+
+            $keys = ['pusher_app_id', 'pusher_cluster', 'pusher_key', 'pusher_secret'];
+            $pusherConf = Setting::whereIn('key', $keys)->pluck('value', 'key');
+        } catch (QueryException) {
             return;
         }
-        
-        $keys = ['pusher_app_id', 'pusher_cluster', 'pusher_key', 'pusher_secret'];
-        $pusherConf = Setting::whereIn('key', $keys)->pluck('value', 'key');
 
         config(['broadcasting.connections.pusher.key' => $pusherConf['pusher_key'] ?? config('broadcasting.connections.pusher.key')]);
         config(['broadcasting.connections.pusher.secret' => $pusherConf['pusher_secret'] ?? config('broadcasting.connections.pusher.secret')]);
