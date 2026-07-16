@@ -36,4 +36,30 @@ class ProductFactory extends Factory
             'status' => fake()->boolean(),
         ];
     }
+
+    public function fromFoodParkCsvRow(array $row, array $categoryIdsByOriginalId): static
+    {
+        return $this->state(function () use ($row, $categoryIdsByOriginalId) {
+            $originalCategoryId = (int) $row['category_id'];
+
+            return [
+                'name' => $row['name'],
+                'slug' => $row['slug'],
+                'thumb_image' => $row['thumb_image'],
+                'category_id' => $categoryIdsByOriginalId[$originalCategoryId] ?? $originalCategoryId,
+                'short_description' => $row['short_description'],
+                'long_description' => $row['long_description'],
+                'price' => (float) $row['price'],
+                'offer_price' => (float) $row['offer_price'],
+                'quantity' => (int) $row['quantity'],
+                'sku' => $row['sku'] ?: null,
+                'seo_title' => $row['seo_title'] ?: null,
+                'seo_description' => $row['seo_description'] ?: null,
+                'show_at_home' => (bool) $row['show_at_home'],
+                'status' => (bool) $row['status'],
+                'created_at' => $row['created_at'] ?: now(),
+                'updated_at' => $row['updated_at'] ?: now(),
+            ];
+        });
+    }
 }

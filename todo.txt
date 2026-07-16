@@ -4,3 +4,15 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 npm run build
+
+
+Host
+ep-aged-sea-at6eibe9.c-9.us-east-1.aws.neon.tech
+Database
+neondb
+Role
+neondb_owner
+Password
+************
+Pooler host
+ep-aged-sea-at6eibe9-pooler.c-9.us-east-1.aws.neon.tech

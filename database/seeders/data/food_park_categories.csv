@@ -1,0 +1,5 @@
+id,name,slug,status,show_at_home,created_at,updated_at
+1,Burger,burger,1,1,"2023-09-19 23:15:46","2023-09-19 23:15:46"
+2,Chicken,chicken,1,1,"2023-09-19 23:16:22","2023-09-19 23:16:22"
+3,Pizza,pizza,1,1,"2023-09-19 23:16:56","2023-09-19 23:16:56"
+4,Dresserts,dresserts,1,1,"2023-09-19 23:17:21","2023-09-19 23:17:21"

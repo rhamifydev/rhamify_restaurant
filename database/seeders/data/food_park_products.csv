@@ -1,0 +1,1313 @@
+id,name,slug,thumb_image,category_id,short_description,long_description,price,offer_price,quantity,sku,seo_title,seo_description,show_at_home,status,created_at,updated_at
+1,Hamburger,hamburger,/uploads/media_650a73d963fd3.jpg,1,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p></p>",20,15,100,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:23:53","2023-09-19 23:23:53"
+2,Cheeseburger,cheeseburger,/uploads/media_650a741276c43.jpg,1,"Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p></p>",90,50,1000,SIK-43234,NULL,NULL,1,1,"2023-09-19 23:24:50","2023-09-19 23:24:50"
+3,"French Fries",french-fries,/uploads/media_650a7495bad10.jpg,1,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p></p>",10,0,200,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:27:01","2023-09-19 23:27:01"
+4,"Chicken Nuggets",chicken-nuggets,/uploads/media_650a751bbe194.png,1,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",99,70,500,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:29:15","2023-09-19 23:29:15"
+5,"Hot Dog",hot-dog,/uploads/media_650a759eeca6d.jpg,1,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",30,15,200,SIK-43234,NULL,NULL,1,1,"2023-09-19 23:31:26","2023-09-19 23:31:26"
+6,"Pizza Slice",pizza-slice,/uploads/media_650a760a21304.jpg,2,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,0,500,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:33:14","2023-09-19 23:33:14"
+7,"Chicken Tenders",chicken-tenders,/uploads/media_650a7632bfe22.png,2,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,0,1000,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:33:54","2023-09-19 23:33:54"
+8,"Soft Pretzel",soft-pretzel,/uploads/media_650a765be1323.jpg,2,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,0,500,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:34:35","2023-09-19 23:34:35"
+9,"Onion Rings",onion-rings,/uploads/media_650a769246762.png,2,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,15,1000,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:35:30","2023-09-19 23:35:30"
+10,Burrito,burrito,/uploads/media_650a76fdeac51.png,3,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,0,500,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:37:17","2023-09-19 23:37:17"
+11,Taco,taco,/uploads/media_650a774591f0a.png,3,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",10,9,200,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:38:29","2023-09-19 23:38:29"
+12,Quesadilla,quesadilla,/uploads/media_650a777cf2158.jpg,3,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,15,200,NULL,NULL,NULL,1,1,"2023-09-19 23:39:24","2023-09-19 23:39:24"
+13,"Chicken Sandwich",chicken-sandwich,/uploads/media_650a77ff7f1c7.jpg,3,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,50,1000,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:41:35","2023-09-19 23:41:35"
+14,"Fish and Chips",fish-and-chips,/uploads/media_650a783c31aa9.jpg,3,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,0,500,SIK-43234,NULL,NULL,1,1,"2023-09-19 23:42:36","2023-09-19 23:42:36"
+15,"Mozzarella Sticks",mozzarella-sticks,/uploads/media_650a78b811c49.png,4,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,50,1000,SIK-43234,NULL,NULL,1,1,"2023-09-19 23:44:40","2023-09-19 23:44:40"
+16,"Buffalo Wings",buffalo-wings,/uploads/media_650a78e6bc5fc.jpg,4,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",100,0,500,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:45:26","2023-09-19 23:45:26"
+17,"Corn Dog",corn-dog,/uploads/media_650a794504f28.jpg,4,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",50,30,500,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:47:01","2023-09-19 23:47:01"
+18,"Chili Cheese Fries",chili-cheese-fries,/uploads/media_650a79728d57a.jpg,4,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,0,500,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:47:46","2023-09-19 23:47:46"
+19,"Fried Chicken",fried-chicken,/uploads/media_650a79ee7fe84.png,4,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,30,1000,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:49:50","2023-09-19 23:49:50"
+20,"Tater Tots",tater-tots,/uploads/media_650a7a1c5bbbf.jpg,4,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",100,0,1000,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:50:36","2023-09-19 23:50:36"
+21,"Philly Cheesesteak",philly-cheesesteak,/uploads/media_650a7a55a1290.jpg,4,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",40,30,1000,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:51:33","2023-09-19 23:51:33"
+22,Sliders,sliders,/uploads/media_650a7af92f585.jpg,4,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,0,1000,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:54:17","2023-09-19 23:54:17"
+23,"Chili Dog",chili-dog,/uploads/media_650a7b7606799.jpg,1,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",39,20,500,MKV-2342345,NULL,NULL,1,1,"2023-09-19 23:56:22","2023-09-19 23:56:22"
+24,"Egg Roll",egg-roll,/uploads/media_650a7c5e3a45f.jpg,1,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",40,30,200,MKV-2342345,NULL,NULL,1,1,"2023-09-20 00:00:14","2023-09-20 00:00:14"
+25,Poutine,poutine,/uploads/media_650a7c8aa3d02.png,1,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,0,1000,MKV-2342345,NULL,NULL,1,1,"2023-09-20 00:00:58","2023-09-20 00:00:58"
+26,Falafel,falafel,/uploads/media_650a7cfcbf596.jpg,2,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",39,30,1000,MKV-2342345,NULL,NULL,1,1,"2023-09-20 00:02:52","2023-09-20 00:02:52"
+27,"Fried Shrimp",fried-shrimp,/uploads/media_650a7d47c2ff2.png,2,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",70,20,500,MKV-2342345,NULL,NULL,1,1,"2023-09-20 00:04:07","2023-09-20 00:04:07"
+28,"BBQ Ribs",bbq-ribs,/uploads/media_650a7de8324ab.jpg,2,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,0,500,MKV-2342345,NULL,NULL,1,1,"2023-09-20 00:06:48","2023-09-20 00:06:48"
+29,Calzone,calzone,/uploads/media_650a7e0d38849.png,2,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",70,0,1000,MKV-2342345,NULL,NULL,1,1,"2023-09-20 00:07:25","2023-09-20 00:07:25"
+30,"Tuna Sandwich",tuna-sandwich,/uploads/media_650a7e54e2c75.jpg,3,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",39,20,500,SIK-43234,NULL,NULL,1,1,"2023-09-20 00:08:36","2023-09-20 00:08:36"
+31,"Veggie Burger",veggie-burger,/uploads/media_650a7eabef1b2.jpg,3,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",60,0,200,MKV-2342345,NULL,NULL,1,1,"2023-09-20 00:10:03","2023-09-20 00:10:03"
+32,"Sausage Biscuit",sausage-biscuit,/uploads/media_650a7ed663e23.jpg,3,"Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza","<div class=""tab-pane fade show active"" id=""pills-home"" role=""tabpanel"" aria-labelledby=""pills-home-tab"" tabindex=""0"">
+                                <div class=""menu_det_description"">
+                                    <p>Ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore. vero
+                                        veritatis reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                        tempora ea incidunt iste, corporis, quo cumque facere doloribus possimus nostrum
+                                        sed magni quasi</p>
+                                    <ul><li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+                                            consectetur ullam in</li><li>Dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt.</li><li>Corporis, quo cumque facere doloribus possimus nostrum sed magni quasi.</li><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum itaque nesciunt
+                                        dolor laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                        voluptatum officia vel sapiente enim, reprehenderit impedit beatae molestias
+                                        dolorum. A laborum consectetur sed quis exercitationem optio consequatur, unde
+                                        neque est odit, pariatur quae incidunt quasi dolorem nihil aliquid ut veritatis
+                                        porro eaque cupiditate voluptatem vel ad! Asperiores, praesentium. sit amet
+                                        consectetur adipisicing elit. Doloribus consectetur ullam in? Beatae, dolorum ad
+                                        ea deleniti ratione voluptatum similique omnis voluptas tempora optio soluta</p>
+
+                                    <ul><li>Reiciendis blanditiis architecto. Debitis nesciunt inventore voluptate
+                                            tempora ea.</li><li>Incidunt iste, corporis, quo cumque facere doloribus possimus
+                                            nostrum sed magni quasi</li><li>Architecto. Debitis nesciunt inventore voluptate tempora ea incidunt iste
+                                            corporis.</li><li>Earum itaque nesciunt dolor laudantium placeat sed velit aspernatur.</li><li>Laudantium placeat sed velit aspernatur, nobis quos quibusdam distinctio
+                                            voluptatum.</li></ul>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus consectetur
+                                        ullam in? Beatae, dolorum ad ea deleniti ratione voluptatum similique omnis
+                                        voluptas tempora optio soluta vero veritatis reiciendis blanditiis architecto.
+                                        Debitis nesciunt inventore voluptate tempora ea incidunt iste, corporis, quo
+                                        cumque facere doloribus possimus nostrum sed magni quasi, assumenda autem!
+                                        Repudiandae nihil magnam provident illo alias vero odit repellendus, ipsa nemo
+                                        itaque. Aperiam fuga, magnam quia illum minima blanditiis tempore.</p>
+                                </div>
+                            </div><p><br></p><p></p>",40,0,500,MKV-2342345,NULL,NULL,1,1,"2023-09-20 00:10:46","2023-09-20 00:10:46"

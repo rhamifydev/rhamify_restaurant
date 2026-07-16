@@ -12,21 +12,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
-
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
-        $this->call(UserSeeder::class);
-        $this->call(WhyChooseUsTitleSeeder::class);
-        \App\Models\Slider::factory(3)->create();
-        \App\Models\WhyChooseUs::factory(3)->create();
-        $this->call(CategorySeeder::class);
-        \App\Models\Product::factory(10)->create();
-        \App\Models\Coupon::factory(3)->create();
-        $this->call(MenuBuilderSeeder::class);
-        $this->call(DemoContentSeeder::class);
-
+        $this->call(FoodParkDatabaseSeeder::class);
     }
 }
