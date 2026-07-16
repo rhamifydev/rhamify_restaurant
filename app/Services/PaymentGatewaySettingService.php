@@ -18,6 +18,10 @@ class PaymentGatewaySettingService {
             return [];
         }
 
+        if (! $this->cacheTableIsReady()) {
+            return PaymentGatewaySetting::pluck('value', 'key')->toArray(); // ['key' => 'value']
+        }
+
         return Cache::rememberForever('gatewaySettings', function(){
             return PaymentGatewaySetting::pluck('value', 'key')->toArray(); // ['key' => 'value']
         });
@@ -30,6 +34,11 @@ class PaymentGatewaySettingService {
 
     function clearCachedSettings() : void {
         Cache::forget('gatewaySettings');
+    }
+
+    private function cacheTableIsReady(): bool
+    {
+        return config('cache.default') !== 'database' || Schema::hasTable(config('cache.stores.database.table', 'cache'));
     }
 
 }

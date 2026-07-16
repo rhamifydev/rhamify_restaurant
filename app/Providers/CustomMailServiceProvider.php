@@ -33,20 +33,24 @@ class CustomMailServiceProvider extends ServiceProvider
                 return;
             }
 
-            $mailSetting = Cache::rememberForever('mail_settings', function(){
-                $key = [
-                    'mail_driver',
-                    'mail_encryption',
-                    'mail_from_address',
-                    'mail_host',
-                    'mail_password',
-                    'mail_port',
-                    'mail_receive_address',
-                    'mail_username'
-                ];
-                
-                return Setting::whereIn('key', $key)->pluck('value', 'key')->toArray();
-            });
+            $key = [
+                'mail_driver',
+                'mail_encryption',
+                'mail_from_address',
+                'mail_host',
+                'mail_password',
+                'mail_port',
+                'mail_receive_address',
+                'mail_username'
+            ];
+
+            if (config('cache.default') === 'database' && ! Schema::hasTable(config('cache.stores.database.table', 'cache'))) {
+                $mailSetting = Setting::whereIn('key', $key)->pluck('value', 'key')->toArray();
+            } else {
+                $mailSetting = Cache::rememberForever('mail_settings', function() use ($key) {
+                    return Setting::whereIn('key', $key)->pluck('value', 'key')->toArray();
+                });
+            }
         } catch (QueryException) {
             return;
         }

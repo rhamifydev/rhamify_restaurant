@@ -18,6 +18,10 @@ class SettingsService {
             return [];
         }
 
+        if (! $this->cacheTableIsReady()) {
+            return Setting::pluck('value', 'key')->toArray(); // ['key' => 'value']
+        }
+
         return Cache::rememberForever('settings', function(){
             return Setting::pluck('value', 'key')->toArray(); // ['key' => 'value']
         });
@@ -30,6 +34,11 @@ class SettingsService {
 
     function clearCachedSettings() : void {
         Cache::forget('settings');
+    }
+
+    private function cacheTableIsReady(): bool
+    {
+        return config('cache.default') !== 'database' || Schema::hasTable(config('cache.stores.database.table', 'cache'));
     }
 
 }

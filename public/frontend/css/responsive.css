@@ -3014,3 +3014,103 @@
     }
 
 }
+
+@media (max-width: 360px) {
+    .fp__offer_item {
+        padding-top: 52px !important;
+        padding-bottom: 82px !important;
+    }
+
+    .fp__offer_item .container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .fp__offer_item .fp__section_heading {
+        margin-bottom: 28px;
+    }
+
+    .fp__offer_item .fp__section_heading h4 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .fp__offer_item .fp__section_heading h2 {
+        font-size: 20px;
+        line-height: 1.25;
+    }
+
+    .fp__offer_item .fp__section_heading span {
+        width: 80px;
+        margin: 8px auto 10px;
+    }
+
+    .fp__offer_item .fp__section_heading p {
+        font-size: 13px;
+        line-height: 1.55;
+    }
+
+    .offer_item_slider {
+        margin-left: -4px;
+        margin-right: -4px;
+    }
+
+    .fp__offer_item_single {
+        align-items: stretch;
+        margin: 0 4px;
+        border-radius: 8px;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    .fp__offer_item_single .img {
+        width: 108px;
+        height: auto;
+        min-height: 158px;
+        flex: 0 0 108px;
+    }
+
+    .fp__offer_item_single .img img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .fp__offer_item_single .text {
+        width: calc(100% - 108px);
+        padding: 12px 10px;
+    }
+
+    .fp__offer_item_single span {
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+    }
+
+    .fp__offer_item_single .title {
+        font-size: 16px;
+        line-height: 1.25;
+        margin: 6px 0 5px;
+    }
+
+    .fp__offer_item_single p {
+        font-size: 12px;
+        line-height: 1.45;
+        -webkit-line-clamp: 2;
+    }
+
+    .fp__offer_item_single ul {
+        margin-top: 9px;
+        gap: 5px;
+    }
+
+    .fp__offer_item_single ul li a {
+        width: 27px;
+        height: 27px;
+        margin-right: 0;
+        line-height: 27px;
+        font-size: 12px;
+    }
+
+    .fp__offer_item .slick-dots {
+        bottom: -36px;
+    }
+}
