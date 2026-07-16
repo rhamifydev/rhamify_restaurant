@@ -10,6 +10,10 @@ class DailyOffer extends Model
 {
     use HasFactory;
 
+    protected $casts = [
+        'status' => 'integer',
+    ];
+
     function product() : BelongsTo {
         return $this->belongsTo(Product::class);
     }

@@ -10,4 +10,9 @@ class Category extends Model
     use HasFactory;
 
     protected $fillable = ['name', 'slug', 'status', 'show_at_home'];
+
+    protected $casts = [
+        'status' => 'integer',
+        'show_at_home' => 'integer',
+    ];
 }

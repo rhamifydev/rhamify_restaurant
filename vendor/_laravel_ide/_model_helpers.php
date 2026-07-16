@@ -1362,7 +1362,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property string $banner
      * @property string $url
      * @property string $sub_title
@@ -1700,7 +1700,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property string|null $seo_description
      * @property string|null $seo_title
      * @property string $description
@@ -2050,7 +2050,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property string $slug
      * @property string $name
      * @property int $id
@@ -2386,7 +2386,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property string $comment
      * @property mixed $user_id
      * @property mixed $blog_id
@@ -2724,8 +2724,8 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $show_at_home
-     * @property bool $status
+     * @property integer $show_at_home
+     * @property integer $status
      * @property string $slug
      * @property string $name
      * @property int $id
@@ -3398,8 +3398,8 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
-     * @property bool $show_at_home
+     * @property integer $status
+     * @property integer $show_at_home
      * @property string|null $web
      * @property string|null $x
      * @property string|null $in
@@ -4438,7 +4438,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property float $discount
      * @property mixed $discount_type
      * @property string $expire_date
@@ -4782,7 +4782,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property string $content
      * @property string $slug
      * @property string $name
@@ -5118,7 +5118,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property mixed $product_id
      * @property int $id
      * @property-read \App\Models\Product $product
@@ -5451,7 +5451,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property float $delivery_fee
      * @property string $max_delivery_time
      * @property string $min_delivery_time
@@ -7830,8 +7830,8 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
-     * @property bool $show_at_home
+     * @property integer $status
+     * @property integer $show_at_home
      * @property string|null $seo_description
      * @property string|null $seo_title
      * @property string|null $sku
@@ -8861,7 +8861,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property string $review
      * @property mixed $rating
      * @property mixed $product_id
@@ -9879,7 +9879,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property string $end_time
      * @property string $start_time
      * @property int $id
@@ -10545,7 +10545,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property string|null $button_link
      * @property string $short_description
      * @property string $sub_title
@@ -10887,7 +10887,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property string $link
      * @property string $name
      * @property string $icon
@@ -11553,9 +11553,9 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
-     * @property bool $show_at_home
-     * @property mixed $rating
+     * @property integer $status
+     * @property integer $show_at_home
+     * @property integer $rating
      * @property string $review
      * @property string $title
      * @property string $name
@@ -12576,7 +12576,7 @@ namespace App\Models {
      *
      * @property \Illuminate\Support\Carbon|null $updated_at
      * @property \Illuminate\Support\Carbon|null $created_at
-     * @property bool $status
+     * @property integer $status
      * @property string $short_description
      * @property string $title
      * @property string $icon

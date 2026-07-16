@@ -10,6 +10,10 @@ class BlogCategory extends Model
 {
     use HasFactory;
 
+    protected $casts = [
+        'status' => 'integer',
+    ];
+
     function blogs() : HasMany {
         return $this->hasMany(Blog::class, 'category_id', 'id');
     }

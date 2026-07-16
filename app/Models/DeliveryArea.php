@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class DeliveryArea extends Model
 {
     use HasFactory;
+
+    protected $casts = [
+        'status' => 'integer',
+    ];
 }

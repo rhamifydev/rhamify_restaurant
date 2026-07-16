@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class BannerSlider extends Model
 {
     use HasFactory;
+
+    protected $casts = [
+        'status' => 'integer',
+    ];
 }

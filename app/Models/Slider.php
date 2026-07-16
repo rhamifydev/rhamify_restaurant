@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Slider extends Model
 {
     use HasFactory;
+
+    protected $casts = [
+        'status' => 'integer',
+    ];
 }

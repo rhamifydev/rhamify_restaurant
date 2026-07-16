@@ -11,6 +11,10 @@ class Blog extends Model
 {
     use HasFactory;
 
+    protected $casts = [
+        'status' => 'integer',
+    ];
+
     function category() : BelongsTo {
         return $this->belongsTo(BlogCategory::class, 'category_id', 'id');
     }

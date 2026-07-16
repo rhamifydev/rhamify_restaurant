@@ -11,6 +11,11 @@ class Product extends Model
 {
     use HasFactory;
 
+    protected $casts = [
+        'status' => 'integer',
+        'show_at_home' => 'integer',
+    ];
+
     function category() : BelongsTo {
         return $this->belongsTo(Category::class);
     }
