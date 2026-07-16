@@ -56,16 +56,23 @@ class FoodParkDatabaseSeeder extends Seeder
         'wishlists',
     ];
 
+    private const IMPORT_ORDER = [
+        2, 43, 17, 7, 9, 0, 4, 5, 11, 12, 13, 14, 15, 18, 19, 20, 25, 26, 27,
+        34, 35, 36, 37, 38, 39, 40, 41, 42, 3, 1, 6, 28, 8, 10, 16, 29, 30,
+        32, 31, 22, 23, 24, 33, 44,
+    ];
+
     public function run(): void
     {
         $sections = $this->csvSections(database_path('seeders/data/food_park.csv'));
 
         Schema::disableForeignKeyConstraints();
 
-        foreach ($sections as $index => $section) {
+        foreach (self::IMPORT_ORDER as $index) {
+            $section = $sections[$index] ?? null;
             $table = self::SECTION_TABLES[$index] ?? null;
 
-            if (! $table || ! Schema::hasTable($table) || $section['rows'] === []) {
+            if (! $section || ! $table || ! Schema::hasTable($table) || $section['rows'] === []) {
                 continue;
             }
 
@@ -83,9 +90,23 @@ class FoodParkDatabaseSeeder extends Seeder
                     $attributes
                 );
             }
+
+            $this->syncSequence($table);
         }
 
         Schema::enableForeignKeyConstraints();
+    }
+
+    private function syncSequence(string $table): void
+    {
+        if (DB::getDriverName() !== 'pgsql') {
+            return;
+        }
+
+        DB::statement(
+            "select setval(pg_get_serial_sequence(?, 'id'), coalesce((select max(id) from {$table}), 1), true)",
+            [$table]
+        );
     }
 
     private function csvSections(string $path): array
