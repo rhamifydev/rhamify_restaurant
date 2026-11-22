@@ -1,0 +1,211 @@
+name: Auto-Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Auto-Deploy on Push
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to VPS via SSH
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          passphrase: ${{ secrets.VPS_KEY_PASSPHRASE }}
+          password: ${{ secrets.VPS_PASSWORD }}
+          port: ${{ secrets.VPS_PORT }}
+          script_stop: true
+          script: |
+            echo "🚀 Starting automated deployment for rhamify_restaurant on main..."
+            cd /home/rhamifytechnology/rhamify_restaurant
+            git config --global --add safe.directory /home/rhamifytechnology/rhamify_restaurant 2>/dev/null || true
+            export GIT_TERMINAL_PROMPT=0
+            git stash --include-untracked 2>/dev/null || git stash 2>/dev/null || true
+            git fetch --prune origin main 2>&1
+            git checkout -B main origin/main 2>&1 || git checkout -f main 2>&1
+            git reset --hard origin/main 2>&1
+
+            # Fix directory permissions for Nginx and user
+            chmod -R 755 . 2>/dev/null || true
+
+            # 1. Docker / Docker Compose
+            if [ -f docker-compose.yml ] || [ -f docker-compose.yaml ] || [ -f compose.yaml ] || [ -f compose.yml ]; then
+              echo "🐳 Docker Compose detected: Building and starting services..."
+              docker compose pull 2>/dev/null || true
+              docker compose up -d --build 2>&1
+            elif [ -f Dockerfile ]; then
+              echo "🐳 Dockerfile detected: Building image and restarting container..."
+              docker build -t app-rhamify_restaurant . 2>&1
+              docker stop app-rhamify_restaurant 2>/dev/null || true
+              docker rm app-rhamify_restaurant 2>/dev/null || true
+              docker run -d --name app-rhamify_restaurant --restart always app-rhamify_restaurant 2>&1
+
+            # 2. Python: Django, FastAPI, Flask, WSGI, ASGI
+            elif [ -f requirements.txt ] || [ -f manage.py ] || [ -f Pipfile ] || [ -f pyproject.toml ] || [ -f setup.py ] || [ -d venv ]; then
+              echo "🐍 Python detected: Updating virtualenv and dependencies..."
+              if [ ! -d venv ] && command -v python3 >/dev/null 2>&1; then
+                python3 -m venv venv 2>&1 || true
+              fi
+              if [ -d venv ]; then
+                if [ ! -f ./venv/bin/pip ]; then
+                  curl -sS https://bootstrap.pypa.io/get-pip.py | ./venv/bin/python3 2>&1 || true
+                fi
+                if [ -f ./venv/bin/pip ]; then
+                  ./venv/bin/pip install --upgrade pip setuptools wheel 2>&1 || true
+                  if [ -f requirements.txt ]; then
+                    ./venv/bin/pip install -r requirements.txt 2>&1
+                  elif [ -f Pipfile ]; then
+                    ./venv/bin/pip install pipenv 2>&1 || true
+                    ./venv/bin/pipenv install 2>&1
+                  elif [ -f pyproject.toml ]; then
+                    ./venv/bin/pip install . 2>&1
+                  elif [ -f setup.py ]; then
+                    ./venv/bin/pip install -e . 2>&1
+                  fi
+                  ./venv/bin/pip install gunicorn uvicorn 2>&1 || true
+                elif command -v pip3 >/dev/null 2>&1; then
+                  if [ -f requirements.txt ]; then
+                    pip3 install --user -r requirements.txt 2>&1 || pip3 install --break-system-packages -r requirements.txt 2>&1
+                  fi
+                  pip3 install --user gunicorn uvicorn 2>&1 || pip3 install --break-system-packages gunicorn uvicorn 2>&1 || true
+                fi
+                if [ -f manage.py ] && [ -f ./venv/bin/python ]; then
+                  ./venv/bin/python manage.py collectstatic --noinput 2>/dev/null || true
+                  ./venv/bin/python manage.py migrate --noinput 2>/dev/null || true
+                fi
+                if [ -f package.json ]; then
+                  echo "⚛️ Building frontend assets inside Python project..."
+                  if ! command -v node >/dev/null 2>&1; then
+                    curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash - >/dev/null 2>&1 && sudo apt-get install -y nodejs >/dev/null 2>&1 || true
+                  fi
+                  if [ -f pnpm-lock.yaml ] && command -v pnpm >/dev/null 2>&1; then
+                    pnpm install 2>&1 && pnpm run build 2>&1 || true
+                  elif [ -f yarn.lock ] && command -v yarn >/dev/null 2>&1; then
+                    yarn install 2>&1 && yarn run build 2>&1 || true
+                  elif [ -f bun.lockb ] && command -v bun >/dev/null 2>&1; then
+                    bun install 2>&1 && bun run build 2>&1 || true
+                  elif command -v npm >/dev/null 2>&1; then
+                    npm install --include=dev --prefer-offline 2>&1 && npm run build 2>&1 || true
+                  fi
+                fi
+              fi
+              chmod -R 755 . 2>/dev/null || true
+              sudo systemctl restart vps-rhamify_restaurant.service 2>/dev/null || true
+
+            # 3. PHP: Laravel, Symfony, WordPress, generic PHP
+            elif [ -f artisan ] || [ -f composer.json ]; then
+              echo "🐘 PHP detected: Updating Composer, building frontend, and clearing caches..."
+              if command -v composer >/dev/null 2>&1; then
+                composer install --no-interaction --prefer-dist --optimize-autoloader 2>&1
+              fi
+              if [ -f artisan ]; then
+                if [ -f .env ] && ! grep -qE '^APP_KEY=base64:' .env 2>/dev/null; then
+                  php artisan key:generate --force 2>&1 || true
+                fi
+                php artisan migrate --force 2>/dev/null || true
+                php artisan storage:link 2>/dev/null || true
+              fi
+              if [ -f package.json ]; then
+                echo "⚛️ Compiling frontend assets (Vite/Mix)..."
+                if ! command -v node >/dev/null 2>&1; then
+                  curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash - >/dev/null 2>&1 && sudo apt-get install -y nodejs >/dev/null 2>&1 || true
+                fi
+                if [ -f pnpm-lock.yaml ] && command -v pnpm >/dev/null 2>&1; then
+                  pnpm install 2>&1 && pnpm run build 2>&1 || true
+                elif [ -f yarn.lock ] && command -v yarn >/dev/null 2>&1; then
+                  yarn install 2>&1 && yarn run build 2>&1 || true
+                elif [ -f bun.lockb ] && command -v bun >/dev/null 2>&1; then
+                  bun install 2>&1 && bun run build 2>&1 || true
+                elif command -v npm >/dev/null 2>&1; then
+                  npm install --include=dev --prefer-offline 2>&1 && npm run build 2>&1 || true
+                fi
+              fi
+              if [ -f artisan ]; then
+                php artisan optimize:clear 2>/dev/null || true
+              fi
+              chmod -R 755 . 2>/dev/null || true
+              sudo systemctl reload nginx 2>/dev/null || true
+              sudo systemctl restart php*-fpm 2>/dev/null || true
+
+            # 4. Node.js / TypeScript: Express, Next.js, Nuxt, NestJS, React, Vue
+            elif [ -f package.json ]; then
+              echo "📦 Node.js detected: Installing dependencies and building production assets..."
+              if ! command -v node >/dev/null 2>&1; then
+                curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash - >/dev/null 2>&1 && sudo apt-get install -y nodejs >/dev/null 2>&1 || true
+              fi
+              if [ -f pnpm-lock.yaml ]; then
+                if ! command -v pnpm >/dev/null 2>&1; then sudo npm install -g pnpm >/dev/null 2>&1 || true; fi
+                pnpm install 2>&1
+                if grep -q '"build":' package.json 2>/dev/null; then pnpm run build 2>&1; elif grep -q '"build:prod":' package.json 2>/dev/null; then pnpm run build:prod 2>&1; fi
+              elif [ -f yarn.lock ]; then
+                if ! command -v yarn >/dev/null 2>&1; then sudo npm install -g yarn >/dev/null 2>&1 || true; fi
+                yarn install 2>&1
+                if grep -q '"build":' package.json 2>/dev/null; then yarn build 2>&1; elif grep -q '"build:prod":' package.json 2>/dev/null; then yarn run build:prod 2>&1; fi
+              elif [ -f bun.lockb ]; then
+                if ! command -v bun >/dev/null 2>&1; then curl -fsSL https://bun.sh/install | bash >/dev/null 2>&1 || true; fi
+                bun install 2>&1
+                if grep -q '"build":' package.json 2>/dev/null; then bun run build 2>&1; elif grep -q '"build:prod":' package.json 2>/dev/null; then bun run build:prod 2>&1; fi
+              elif command -v npm >/dev/null 2>&1; then
+                npm install --include=dev --prefer-offline 2>&1
+                if grep -q '"build":' package.json 2>/dev/null; then npm run build 2>&1; elif grep -q '"build:prod":' package.json 2>/dev/null; then npm run build:prod 2>&1; fi
+              fi
+              chmod -R 755 . 2>/dev/null || true
+              sudo systemctl restart vps-rhamify_restaurant.service 2>/dev/null || true
+              sudo nginx -t 2>/dev/null && sudo systemctl reload nginx 2>/dev/null || true
+
+            # 5. Ruby / Ruby on Rails
+            elif [ -f Gemfile ]; then
+              echo "💎 Ruby detected: Installing bundle gems..."
+              if command -v bundle >/dev/null 2>&1; then
+                bundle install 2>&1
+                if [ -f bin/rails ]; then
+                  bundle exec rails db:migrate 2>/dev/null || true
+                  bundle exec rails assets:precompile 2>/dev/null || true
+                fi
+              fi
+              sudo systemctl restart vps-rhamify_restaurant.service 2>/dev/null || true
+
+            # 6. Go / Golang
+            elif [ -f go.mod ] || [ -f main.go ]; then
+              echo "🐹 Go detected: Compiling binary..."
+              if command -v go >/dev/null 2>&1; then
+                go mod download 2>/dev/null || true
+                go build -o app_server . 2>&1
+              fi
+              sudo systemctl restart vps-rhamify_restaurant.service 2>/dev/null || true
+
+            # 7. Rust
+            elif [ -f Cargo.toml ]; then
+              echo "🦀 Rust detected: Compiling release binary..."
+              if command -v cargo >/dev/null 2>&1; then
+                cargo build --release 2>&1
+              fi
+              sudo systemctl restart vps-rhamify_restaurant.service 2>/dev/null || true
+
+            # 8. Java / Kotlin: Maven & Gradle
+            elif [ -f pom.xml ] || [ -f build.gradle ] || [ -f build.gradle.kts ]; then
+              echo "☕ Java detected: Building application..."
+              if [ -f gradlew ]; then
+                chmod +x gradlew && ./gradlew build -x test 2>&1
+              elif [ -f mvnw ]; then
+                chmod +x mvnw && ./mvnw clean package -DskipTests 2>&1
+              elif [ -f pom.xml ] && command -v mvn >/dev/null 2>&1; then
+                mvn clean package -DskipTests 2>&1
+              elif command -v gradle >/dev/null 2>&1; then
+                gradle build -x test 2>&1
+              fi
+              sudo systemctl restart vps-rhamify_restaurant.service 2>/dev/null || true
+
+            # 9. Static HTML / Static SPA
+            else
+              echo "🌐 Static web assets detected: Reloading web server..."
+              sudo nginx -t 2>/dev/null && sudo systemctl reload nginx 2>/dev/null || true
+            fi
+
+            echo "✅ Deployment finished successfully for rhamify_restaurant!"
